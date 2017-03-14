@@ -42,4 +42,4 @@ If you open `http://localhost:8080/my-hof-form` in a browser then you should see
 
 ![](../images/getting-started.png)
 
-Next: [Add steps and fields to your form ->](./basic-customisation).
+Next: [Add steps and fields to your form →](./basic-customisation).

@@ -137,4 +137,4 @@ For more `mixin` options and field configuration settings see [hof-template-mixi
 
 You will also see in your configuration that the `/confirm` step has an additional `behaviours` option. This defines some custom functionality for that step.
 
-Next: [Customising Behaviour ->](#TODO)
+Next: [Customising Behaviour →](#TODO)
