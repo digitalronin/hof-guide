@@ -12,6 +12,6 @@ hof is written in node.js, and makes *heavy* use of [express](http://expressjs.c
 
 A complete, out-of-the-box, enterprise software solution. You will still need to write code for all but the simplest use cases.
 
-## Getting started
+## Using hof
 
-If you're ready to try developing your first hof form then carry on to our [getting started guide](./getting-started).
+If you're ready to try building your first hof form then carry on to our [development guide](./development/getting-started).
