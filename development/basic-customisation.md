@@ -98,6 +98,27 @@ module.exports = {
 
 We want to make all of the fields except `address-line-2` mandatory, and so can give them a `validate` property of `'required'`.
 
+```js
+module.exports = {
+  name: {
+    validate: 'required'
+  },
+  'address-line-1': {
+    validate: 'required'
+  },
+  'address-line-2': {},
+  town: {
+    validate: 'required'
+  },
+  country: {
+    validate: 'required'
+  },
+  postcode: {
+    validate: 'required'
+  }
+};
+```
+
 Additionally, we might want to do validation on the postcode to make sure it is correctly formatted, and so we can add an additional `postcode` validator. To add multiple validators to a field, simply set the validate property to an array.
 
 ```js
