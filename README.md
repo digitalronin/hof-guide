@@ -4,9 +4,9 @@ This is a guide to the `hof` - Home Office Forms - project.
 
 ## What is hof?
 
-hof is a collection of tools used for building form-based workflows in a rapid, repeatable, and extensible manner. It aims to reduce simple forms as much as possible to being configuration-only.
+hof is a collection of tools used for building GOV.UK themed, form-based workflows in a rapid, repeatable, and extensible manner. It aims to reduce simple forms as much as possible to being configuration-only.
 
-hof is written in node.js, and makes *heavy* use of [express](http://expressjs.com/). A familiarity with these two things will be invaluable for building projects in hof.
+It handles normalisation and validation of inputs, user journey flow flow control, and persistence of user input across a session.
 
 ## What *isn't* hof?
 
