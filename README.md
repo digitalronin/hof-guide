@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+# hof-guide
 
-You can use the [editor on GitHub](https://github.com/UKHomeOfficeForms/hof-guide/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is a guide to the `hof` - Home Office Forms - project.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## What is hof?
 
-### Markdown
+hof is a collection of tools used for building form-based workflows in a rapid, repeatable, and extensible manner. It aims to reduce simple forms as much as possible to being configuration-only.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+hof is written in node.js, and makes *heavy* use of [express](http://expressjs.com/). A familiarity with these two things will be invaluable for building projects in hof.
 
-```markdown
-Syntax highlighted code block
+## What *isn't* hof?
 
-# Header 1
-## Header 2
-### Header 3
+A complete, out-of-the-box, enterprise software solution. You will still need to write code for all but the simplest use cases.
 
-- Bulleted
-- List
+## Getting started
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/UKHomeOfficeForms/hof-guide/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+If you're ready to try developing your first hof form then carry on to our [getting started guide](./getting-started).
