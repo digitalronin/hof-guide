@@ -136,16 +136,16 @@ By default all fields are `input[type=text]` unless otherwise specified. In this
 To do this we add a `mixin` property of `select` to that field.
 
 ```js
-postcode: {
+country: {
   mixin: 'select',
   validate: 'required'
 }
 ```
 
-We also need to add some options for the field. Fortunately there is a Home Office managed list of countries, so we don't need to handle this ourselves.
+We also need to add some options for the field. Fortunately there is a Home Office managed list of countries, so we don't need to handle this ourselves. Install `homeoffice-countries` from npm, and then add the following:
 
 ```js
-postcode: {
+country: {
   mixin: 'select',
   options: require('homeoffice-countries').allCountries,
   validate: 'required'
