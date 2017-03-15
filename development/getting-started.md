@@ -12,7 +12,10 @@ hof is built in [node.js](https://nodejs.org/en/), and so you'll need that insta
 
 hof also requires npm version 3 or greater. You can check your installed version by running `npm -v` and update to the latest version by running `npm install -g npm@latest`.
 
-To run hof apps locally for development you will either need a local instance of redis running, or docker-compose installed.
+To run hof apps locally for development you will either need a local instance of redis running, or docker installed.
+
+* How to [install redis on OSX](https://medium.com/@petehouston/install-and-config-redis-on-mac-os-x-via-homebrew-eb8df9a4f298#.jcwwhv7oz)
+* How to [intall docker on OSX](https://docs.docker.com/docker-for-mac/install/#install-and-run-docker-for-mac)
 
 ## Building your first hof form
 
