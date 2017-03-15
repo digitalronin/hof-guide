@@ -41,7 +41,7 @@ This will generate a brand new hof app in the directory you created.
 
 You can then start your app by running `docker-compose up` or `npm start` (needs local redis instance).
 
-If you open `http://localhost:8080/my-hof-form` in a browser then you should see your app. It should look something like this:
+If you open [http://localhost:8080/my-hof-form](http://localhost:8080/my-hof-form) in a browser then you should see your app. It should look something like this:
 
 ![](../images/getting-started.png)
 
