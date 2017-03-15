@@ -6,7 +6,7 @@ This is a guide to the `hof` - Home Office Forms - project.
 
 hof is a collection of tools used for building GOV.UK themed, form-based workflows in a rapid, repeatable, and extensible manner. It aims to reduce simple forms as much as possible to being configuration-only.
 
-It handles normalisation and validation of inputs, user journey flow flow control, and persistence of user input across a session.
+It handles normalisation and validation of inputs, user journey flow control, and persistence of user input across a session.
 
 ## What *isn't* hof?
 
