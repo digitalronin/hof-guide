@@ -106,7 +106,7 @@ module.exports = {
 
 ### Configurable behaviours
 
-In most cases, we will want custombehaviours to be configurable - for example, the [emailer behaviour](https://github.com/UKHomeOfficeForms/hof-behaviour-emailer) - so the same behaviour can be re-used with different options.
+In most cases, we will want custom behaviours to be configurable - for example, the [emailer behaviour](https://github.com/UKHomeOfficeForms/hof-behaviour-emailer) - so the same behaviour can be re-used with different options.
 
 In this case we can define our behaviour as a function which receives configuration options and returns a mixin function.
 
