@@ -1,0 +1,7 @@
+.technical-documentation {
+  &.no-menu {
+    @include media(tablet) {
+      margin: 0 auto $gutter;
+    }
+  }
+}
