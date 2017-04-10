@@ -154,6 +154,3 @@ country: {
 
 For more `mixin` options and field configuration settings see [hof-template-mixins](https://npmjs.com/hof-template-mixins).
 
-## Customising Behaviour
-
-You will also see in your configuration that the `/confirm` step has an additional `behaviours` option. This defines some custom functionality for that step.

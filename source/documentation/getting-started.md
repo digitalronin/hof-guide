@@ -6,6 +6,8 @@ It is expected when following these guides that you have a basic knowledge of un
 
 It is also expected that you have a working knowledge of javascript and node.js and are comfortable installing packages from npm. You should also be comfortable working with git.
 
+This documentation is written with the assumption that you are using the latest versions of hof modules. Not all of this documentation will be relevant if you are not using the latest versions.
+
 ## Requirements
 
 hof is built in [node.js](https://nodejs.org/en/), and so you'll need that installed first. At present all versions 4 and above are supported, although it is recommended that you use the [latest LTS version](https://github.com/nodejs/LTS#lts-schedule).
