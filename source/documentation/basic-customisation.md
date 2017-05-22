@@ -2,12 +2,12 @@
 
 Now we have a basic form created then the next job is to add some steps and fields to our new form.
 
-In the directory we just created we should now find a directory `./apps/my-hof-app`. This contains the configuration and code for our app.
+In the directory we just created we should now find a directory `./apps/my-hof-form`. This contains the configuration and code for our app.
 
 Its contents should look something like this:
 
 ```
-apps/my-hof-app/
+apps/my-hof-form/
 ├── fields/
 ├── translations/
 └── index.js
