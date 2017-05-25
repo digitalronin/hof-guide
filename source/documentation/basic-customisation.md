@@ -142,12 +142,12 @@ country: {
 }
 ```
 
-We also need to add some options for the field. Fortunately there is a Home Office managed list of countries, so we don't need to handle this ourselves. Install `homeoffice-countries` from npm, and then add the following:
+We also need to add some options for the field. Fortunately there is a Home Office managed list of countries, so we don't need to handle this ourselves. Install `hof-util-countries` from npm, and then add the following:
 
 ```js
 country: {
   mixin: 'select',
-  options: require('homeoffice-countries').allCountries,
+  options: require('hof-util-countries')(),
   validate: 'required'
 }
 ```
