@@ -27,7 +27,7 @@ Some validators require additional arguments, which can be specified as follows:
   },
   referencenumber: {
     validate: [
-      { type: 'regex', arguments: /^[a-z0-9]{9}$/ }
+      { type: 'regex', arguments: /^[a-z0-9]{9}$/i }
     ]
   }
 }
@@ -35,7 +35,7 @@ Some validators require additional arguments, which can be specified as follows:
 
 Here the validator name is passed as a `type` property, and any arguments as an `arguments` property.
 
-> Note: all validators except `required` will allow an empty input to be valid. If an empty input is not valid then a `required` validator must be applied.
+> Note: in the second example above - using regex validation - the regex is equivalent to applying an `exactlength` and an `alphanum` validator. In this case it might be preferable to use these two separate validators in order to be able to provide users with more fine-grained error messages.
 
 ## Validator Types
 
@@ -70,3 +70,25 @@ Here the validator name is passed as a `type` property, and any arguments as an 
 ### before
 
 ### after
+
+> Note: all validators except `required` will allow an empty input to be valid. If an empty input is not valid then a `required` validator must be applied.
+
+## Custom Validators
+
+In addition to the built-in validators, you can also define a custom validator as a named function. The function will be passed the field value as a single argument, and should return true for valid input, and false for invalid input.
+
+```js
+{
+  'credit-card-number': {
+    validate: [
+      function luhn (number) {
+        // perform a credit card luhn check
+        // https://en.wikipedia.org/wiki/Luhn_algorithm
+        return hasValidLuhn(number);
+      }
+    ]
+  }
+}
+```
+
+If validation fails for a custom validator, then the name of the function is used to [lookup the validation message](#validation-messaging).
