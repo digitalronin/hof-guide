@@ -73,7 +73,7 @@ steps: {
 }
 ```
 
-Returning to the app in a browser and refreshing (you will need to restart your server each time you make changes - you can have this happen automatically when running locally by running `npm run start:dev` to start your server) you will now see these fields on the address page.
+Returning to the app in a browser and refreshing (you will need to restart your server each time you make changes - you can have this happen automatically when running locally by running `npm run start:dev` to start your server, which is recommended when you're developing an app) you will now see these fields on the address page.
 
 ### Configuring Fields
 
@@ -154,3 +154,35 @@ country: {
 
 For more `mixin` options and field configuration settings see [hof-template-mixins](https://npmjs.com/hof-template-mixins).
 
+#### Field Labels
+
+The last thing to do is to add some label content for our new fields. You will see that right now they appear with default labels like `fields.address-line-1.label`.
+
+To add label content for our new fields we need to set some properties in `./translations/src/en/fields.json`. You will see here that there is a label defined for the name field. We can add some more labels for our new fields as follows:
+
+```json
+{
+  "name": {
+    "label": "Name"
+  },
+  "address-line-1": {
+    "label": "Address"
+  },
+  "address-line-2": {
+    "label": "Address line 2"
+  },
+  "town": {
+    "label": "Town"
+  },
+  "country": {
+    "label": "Country"
+  },
+  "postcode": {
+    "label": "Postcode"
+  }
+}
+```
+
+Returning to your app in a browser you will now see that the new address fields now use the labels we defined for them.
+
+> [more information about how the content for fields can be configured](#fields)
